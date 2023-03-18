@@ -72,17 +72,47 @@ LeetCode Rust 题解。包含对官方解题思路的进一步说明和算法正
    let mut matrix = vec![vec![false; n]; m];
    ```
 
+4. **使用 vscode-leetcode 插件时注意代码起始位置**
+
+   这是 vscode-leetcode 插件生成的模板代码：
+
+   ```rust
+   /*
+    * @lc app=leetcode.cn id=14 lang=rust
+    *
+    * [14] Longest Common Prefix
+    */
+
+   // @lc code=start
+   impl Solution {
+       pub fn longest_common_prefix(strs: Vec<String>) -> String {
+
+       }
+   }
+   // @lc code=end
+   ```
+
+   `// @lc code=start` 和 `// @lc code=end` 包裹的代码会被提交至 LeetCode。所以当使用 `use` 时，一定要放在这两个注释之间，否则提交给 LeetCode 的代码是没有 `use` 声明的，当然也就无法运行。
+
+   如果编译或者执行报错，LeetCode 返回的错误信息中的行号需要加上 7 才是本地文件对应的行号。
+
 ## 题解索引
 
-| #     | 题目                 | 难度 |
-| ----- | -------------------- | ---- |
-| [1][] | 两数之和             | 简单 |
-| [2][] | 两数相加             | 中等 |
-| [3][] | 无重复字符的最长子串 | 中等 |
+| #     | 题目                     | 难度 |
+| ----- | ------------------------ | ---- |
+| [1][] | 两数之和                 | 简单 |
+| [2][] | 两数相加                 | 中等 |
+| [3][] | 无重复字符的最长子串     | 中等 |
+| [4][] | 寻找两个正序数组的中位数 | 困难 |
+| [5][] | 最长回文子串             | 中等 |
+| [6][] | N 字形变换               | 中等 |
 
 [1]: ./solutions/1.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md
 [2]: ./solutions/2.%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.md
 [3]: ./solutions/3.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md
+[4]: ./solutions/4.%20%E5%AF%BB%E6%89%BE%E4%B8%A4%E4%B8%AA%E6%AD%A3%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.md
+[5]: ./solutions/5.%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.md
+[6]: ./solutions/6.%20N%20%E5%AD%97%E5%BD%A2%E5%8F%98%E6%8D%A2.md
 
 ## 参考资料
 
