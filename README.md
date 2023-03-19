@@ -106,6 +106,9 @@ LeetCode Rust 题解。包含对官方解题思路的进一步说明和算法正
 | [4][] | 寻找两个正序数组的中位数 | 困难 |
 | [5][] | 最长回文子串             | 中等 |
 | [6][] | N 字形变换               | 中等 |
+| [7][] | 整数反转                 | 中等 |
+| [8][] | 字符串转换整数 (atoi)    | 中等 |
+| [9][] | 回文数                   | 简单 |
 
 [1]: ./solutions/1.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md
 [2]: ./solutions/2.%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.md
@@ -113,6 +116,9 @@ LeetCode Rust 题解。包含对官方解题思路的进一步说明和算法正
 [4]: ./solutions/4.%20%E5%AF%BB%E6%89%BE%E4%B8%A4%E4%B8%AA%E6%AD%A3%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.md
 [5]: ./solutions/5.%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.md
 [6]: ./solutions/6.%20N%20%E5%AD%97%E5%BD%A2%E5%8F%98%E6%8D%A2.md
+[7]: ./solutions/7.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC.md
+[8]: ./solutions/8.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%95%B4%E6%95%B0%20(atoi).md
+[9]: ./solutions/9.%20%E5%9B%9E%E6%96%87%E6%95%B0.md
 
 ## 参考资料
 
